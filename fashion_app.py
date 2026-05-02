@@ -32,6 +32,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+#Download dataset from kaggle and copy it into in google drive 
+#dataset link = https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+
+
 # Google Drive Configuration
 GOOGLE_DRIVE_FILE_ID = "18BZUrFg6aY5sujhWlhVsUUtDr0Q24SEP"  # Your mytra.zip file on Google Drive
 GOOGLE_DRIVE_ZIP_URL = f"https://drive.google.com/uc?export=download&id={GOOGLE_DRIVE_FILE_ID}"
